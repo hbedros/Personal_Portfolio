@@ -1,0 +1,116 @@
+@-ms-viewport
+{
+    width: device-width;
+}
+@-o-viewport
+{
+    width: device-width;
+}
+@viewport
+{
+    width: device-width;
+}
+a,
+a:hover,
+a:visited,
+a:link
+{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+  }
+
+li::before {margin-right: 10px;}
+
+a:hover {
+    color: rgb(75, 75, 75);
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: 0 auto;
+}
+
+
+.home {
+    color: #777;
+}
+
+div.content {
+    font-family: "Roboto",Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777;
+    padding: 3% 15% 3% 15%;
+
+}
+
+.contact{
+    line-height: 28px;
+    font-weight: 100;
+}
+
+p {
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 40px;
+    color: rgb(75, 75, 75);
+  }
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #777;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 8px;
+    color: #777;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #777;
+}
+
+h5 {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 8px;
+    color: #777;
+}
+
+
+
+ul {
+    margin-left: 3%;
+    line-height: 24px;
+    font-weight: -100;
+}
+
+.content {
+    margin-top: 10px;
+}
+
+.mojFooter{
+    font-size: 18px;
+    color: rgb(196, 196, 196);
+    border-top: 1px solid rgb(196, 196, 196);
+    text-align: center;
+    width: 50%;
+}

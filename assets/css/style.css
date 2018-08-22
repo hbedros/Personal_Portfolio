@@ -1,0 +1,145 @@
+a:hover {
+  color: rgb(75, 75, 75);
+  cursor: pointer;
+}
+html, body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: 0 auto;
+}
+
+body {
+  display: table-cell;
+  font-family: "Roboto",Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  color: #777;
+  padding-top: 5%;
+}
+
+.profile_picture {
+margin-top: -10px;
+border-radius: 60%;
+width: 25%;
+}
+
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+
+.well{
+  background: #fff;
+
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 500;
+  text-align: center;
+  margin: 10px;
+  color: rgb(75, 75, 75);
+}
+
+.row-2 {
+  margin-top: 1%;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: #777;
+  height: 25px;
+}
+
+h4 {
+  height: 25px;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(146, 146, 146);
+}
+
+h5 {
+  height: 25px;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 0;
+  color: rgb(146, 146, 146);
+}
+
+.read_more {
+  position: relative;
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+h2 {
+  padding: 0px 10px 5px 10px;
+  margin-bottom: 20px;
+  color: #4aaaa5;
+  border-bottom-style: solid;
+  border-bottom-color: #777;
+  border-bottom-style: solid;
+  border-bottom-color: #777;
+  border-width: 1px;
+  font-size: 30px;
+}
+
+.modal-body {
+  font-size: 18px;
+  line-height: normal;
+}
+
+
+/* Style all font awesome icons */
+.social_icons {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.fa {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  color: #0077B5; 
+}
+
+.fa-github {
+ color: #333;
+}
+
+.fa-envelope-o{
+  color: #dd4b39
+}
+
+.nounderline {
+  text-decoration: none !important
+}
+
+.resume, .portfolio {
+  color: #777;
+}
+
+.mojFooter{
+  color: rgb(196, 196, 196);
+  border-top: 1px solid rgb(196, 196, 196);
+  text-align: center;
+  padding: 1%;
+  width: 50%;
+}
