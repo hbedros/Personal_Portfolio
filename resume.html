@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+
+  <title>About | Haig Bedros</title>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"/>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=latin" rel="stylesheet">
+<!-- Css file -->
+<link rel="stylesheet" href="assets/css/resume_style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script>
+  $(function() {
+    $(".video").click(function () {
+      var theModal = $(this).data("target"),
+      videoSRC = $(this).attr("data-video"),
+      videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+      $(theModal + ' iframe').attr('src', videoSRCauto);
+      $(theModal + ' button.close').click(function () {
+        $(theModal + ' iframe').attr('src', videoSRC);
+      });
+    });
+  });
+  </script>
+
+</head>
+
+<body>
+<div class="container">
+
+  <div class="col-md-12 text-justify content">
+
+
+    <h1 class="title">resume</h1>
+
+    <!-- <p><a href="/resume/Haig_Bedros-Resume.pdf" download="Haig_Bedros-Resume.pdf" class="download_link">Download.pdf</a></p> -->
+    <a href="assets/files/Haig Bedros - Resume.pdf" download="Haig Bedros - Resume">Download.pdf</a>
+
+
+    <p><h2>Haig Bedros</h2></p>
+    <div class="contact">
+      <p>E: haigbedros@gmail.com <br />
+      T: 310-465-3894 <br /></p>
+    </div>
+
+    <p><h3 style="font-weight: bold; text-decoration: underline;">Technical Skills:</h3>
+        <ul>
+        <li>Programming languages/Frameworks: React, HTML5, CSS3, Javascript, JSX, JQuery, Node.js, RESTful API., JSON</li>
+        <li>Cloud Platforms: Heroku, AWS</li>
+        <li>Experience with MySQL, Firebase, Git, API’s</li>
+        <li>Excellent understanding of the development process(management, design, development, deployment)</li>
+        <li>High analytical and time management skills</li>
+      </ul></p><br>
+
+    <!-- <p><h3></h3>
+    <h4></h4>
+    <h5></h5>
+    <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    </ul></p><br> -->
+
+    <p><h2 style="font-weight: bold; text-decoration: underline;">Website Built:</h2>
+        <h4>DIGITAL ARTSAKH:</h4>
+        <ul>
+        <li>Designed the website’s user interface utilizing CSS3, HTML5 and JQuery.</li>
+        <li>Employed website compression to enhance user experience and allow for faster network transfers.</li>
+        <li>Created a mobile-responsive website for quick user engagement with the digital diplomacy tool.</li>
+        <li>Built a database to collect subscribers’ emails in a CSV file, and implementing MailChimp’s resources to contact
+            subscribers in the future with website developments and new features.</li>
+        <li>Managing developers, content creators, and graphic designers working in the United States, Armenia, and
+            Nagorno-Karabakh to promote international effective and synergistic web development.</li>
+        <li><a href='http://digitalartsakh.org' target="_blank" >http://digitalartsakh.org</a></li>
+        </ul></p><br>
+
+        <h4>AMICO (In progress):</h4>
+        <ul>
+        <li>Created and designed the front-end of a platform for new language acquisition, using REACT, JSX, and CSS3, while simultaneously allowing users to interact with one another to provide users tools to communicate with the international community.</li>
+        <li>Designed a live user feed using firebase’s real-time database that allows users see the latest posts on the website.</li>
+        <li>Built user authentication with REACT and used React Router to redirect the user to login before accessing the
+            protected page. <a style="cursor: pointer" class="video" data-video="https://www.youtube.com/embed/8OTkwWFNQ7Q" data-toggle="modal" data-target="#videoModal">click here to review</a></li>
+
+        <!-- VIDEO MODAL -->
+        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <iframe width="100%" height="350" src="" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <li>Utilized a combination of REACT and Django to import information, such as username and profile picture from a
+            user’s Google account, to AMICO in order to assign each user a unique id in AMICO database.</li>
+        <li><a  href='https://amico.com' target="_blank" >https://amico.com</a></li>
+        </ul></p><br>
+
+        <h4>PROJECT-4AM:</h4>
+        <ul>
+        <li>Created and designed a search engine for upcoming concerts in the area, allowing users to buy tickets through the Bands in Town API and find places to eat around a particular concert location through Yelp’s API.</li>
+        <li>Built user authentication with Firebase, which promotes quick, simple sign-in for users.</li>
+        <li>Created user interface using Material Design Lite, CSS3 and JQuery.</li>
+        <li>Generated a live in-app chat for website users with a Firebase real-time database.</li>
+        <li><a href='https://project-4am.com' target="_blank" >https://project-4am.com</a></li>
+        </ul></p><br>
+
+
+    <h2 style="font-weight: bold; text-decoration: underline;">Professional Experience:</h2>
+    <p><h3>DigitalArtsakh:</h3>
+      <h4>Project Manager, Web Developer</h4>
+      <h5>Los Angeles, CA | Feb 2018 - Present</h5>
+      <ul>
+      <li>Managing an NGO project by building a website to promote the digital presence of a de facto independent
+          territory, Nagorno Karabakh (Artsakh).</li>
+      <li>Leading the group of 5 developers domestically in the U.S. and abroad in Armenia to coordinate the building of
+          this website, encourage timely launch of the campaign, and create clear, effective communication channels
+          through Zoom meeting platform, Slack messaging platform, and more.</li>
+      <li>Working on the Frontend of the website, focusing on the design, structure layouts, and grid system to enhance
+          user experience and engagement with the tools on the website.</li>
+    </ul></p><br>
+
+    <p><h3>PicsArt, Inc:</h3>
+      <h4>Localization Specialist</h4>
+      <h5>Yerevan, Armenia | Mar 2016 - Present</h5>
+      <ul>
+      <li>Localizing and leading cultural adaptations of the assigned console of the application.</li>
+      <li>Translating descriptions, notifications, and blogs from English to Arabic using strict character limits and retaining
+          original meaning context for the 10 million Arab users around the world.</li>
+      <li>Placing the translated content into the proper areas of the mobile applications so that user engagement remains
+          easily comprehensible from country to country.</li>
+      <li>Monitoring and deciding the most culturally-relevant and appropriate times for the application to send users of
+          each timezone push notifications to boost the number of daily active users.</li>
+      <li>Leading the quality assurance portion of the Arabic version of the application to assure that the various
+          employees’ translations of the application’s content maintain the language fluidity necessary for users to best understand the application’s functions.</li>
+    </ul></p><br>
+
+    <p><h3>PicsArt, Inc:</h3>
+      <h4>Quality Assurance, Team Lead</h4>
+      <h5>Yerevan, Armenia | Aug 2016 - Dec 2017</h5>
+      <ul>
+      <li>Interacted with Atlassian’s JIRA software to plan and distribute tasks to the assigned quality assurance team within
+          the International Unit comprised of ten developers and graphic designers.</li>
+      <li>Received news of bugs within the PicsArt application from supervisors, users, and from team members, in order to
+          use the JIRA software to package the tasks with the bug, the assigned task, and projected completion timeline.</li>
+      <li>Worked closely with the developers and graphic designers in schedule management and utilization of their skills
+          to fix applications bugs and glitches within a timely manner.</li>
+    </ul></p><br>
+
+    <p><h3>PicsArt, Inc:</h3>
+      <h4>Engagement Communication Team</h4>
+      <h5>Yerevan, Armenia | Jan 2016 - Aug 2016</h5>
+      <ul>
+      <li>Engaged with diverse users globally to train users as to how best utilize the application for their creative needs,
+          ranging from artists to small businesses.</li>
+      <li>Documented bugs, glitches, and frequently-communicated user problems in order to relay the information to the
+          Quality Assurance teams.</li>
+    </ul></p><br>
+
+    <p><h3>Nver: The Armenian Holiday Project</h3>
+      <h4>Co-Founder and VP of Fundraising</h4>
+      <h5>Yerevan, Armenia | Nov 2015 - Mar 2016</h5>
+      <ul>
+      <li>Co-founded the fundraising project — Nver: the Armenian Holiday Project— to gather monetary donations for
+          winter clothing and essentials for underprivileged Armenian children, residing in rural and low-income areas.</li>
+      <li>Collaborated with NGOs based in Yerevan and Gyumri to distribute the materials widely over the country.</li>
+      <li>Managed and designed social media campaign to garner support from over 20 countries.</li>
+    </ul></p><br>
+
+    <p><h3>Aleppo Compatriotic Charitable Organization NGO</h3>
+      <h4>Program Coordinator</h4>
+      <h5>Yerevan, Armenia | Sep 2015 - Mar 2016</h5>
+      <ul>
+      <li>Monitored Syrian-Armenian refugee needs in Yerevan, Armenia by creating itemized lists of necessities of each
+          household after home visits and allocating NGO resources appropriately.</li>
+      <li>Created database of the Syrian-Armenian refugee families using SQL servers and constantly updated the server
+          with information from the Ministry of Diaspora of the Republic of Armenia.</li>
+    </ul></p><br>
+
+    <p><h3>Armenian United Nations Association (AUNA)</h3>
+      <h4>Program Coordinator</h4>
+      <h5>Yerevan, Armenia | Aug 2015 - Nov 2015</h5>
+      <ul>
+      <li>Provided administrative support to the various departments within the AUNA and resolved a range of inquiries
+          from partners.</li>
+      <li>Organized a conference on “Sustainability and Climate Change” with the United Nation’s team.</li>
+      <li>Researched minority existence and human rights issues regarding those groups and passing them to the database
+          using different kinds of technologies as well as SQL servers.</li>
+    </ul></p><br>
+
+    <p><h4 class="text-center"><a class="menu-item home" href="/Users/haigbedros/dev/personal_website/index.html">home</a></h4></p>
+
+  </div>
+  </div>
+
+  <!-- Footer -->
+    <div class="row">
+      <div class="container mojFooter">
+        <p> &copy; 2018 Haig Bedros</p> 
+      </div>
+    </div>
+
+<!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
