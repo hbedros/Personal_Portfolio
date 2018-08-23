@@ -65,6 +65,11 @@ ul {
 
     html, body{
         width:100%;
-        overflow: scroll;
+        height: 100%;
+       
+        overflow-x: hidden;
+    }
+
+    li {
     }
 }
