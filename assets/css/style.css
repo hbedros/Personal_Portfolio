@@ -141,7 +141,6 @@ h2 {
 @media only screen and (max-width:900px) {
   body {
     height: 100%; 
-    font-size: 1.2em;
     margin: 0; 
 
     overflow: hidden
@@ -179,7 +178,104 @@ h2 {
   
   }
 
+  .mojFooter {
+    margin-top: 5%;
+  }
+
  
  }
 
+ @media only screen and (max-width:600px) {
+  body {
+    height: 100%; 
+    margin: 0; 
+
+    overflow: hidden
+  }
+
+  .main {
+    padding-top: 10%;
+    height: 20px;;
+  }
+
+  .profile_picture {
+    width: 60%;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h3 {
+    margin-top: 2px;
+  }
+
+  h4 {
+    margin-top: 10%;
+    margin-bottom: 2%;
+    font-size: 20px;
+  }
+
+  h5{
+    margin-bottom: 20%;
+    font-size: 18px;
+    display: block;
+    font-size: 17px;
+    line-height: normal;
+  
+  }
+
+  .mojFooter {
+    margin-top: 5%;
+  }
+
+ 
+ }
+
+ @media only screen and (max-width:400px) {
+  body {
+    height: 100%; 
+    margin: 0; 
+
+    overflow: hidden
+  }
+
+  .main {
+    padding-top: 10%;
+    height: 20px;;
+  }
+
+  .profile_picture {
+    width: 60%;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h3 {
+    margin-top: 2px;
+  }
+
+  h4 {
+    margin-top: 10%;
+    margin-bottom: 2%;
+    font-size: 20px;
+  }
+
+  h5{
+    margin-bottom: 20%;
+    font-size: 18px;
+    display: block;
+    font-size: 17px;
+    line-height: normal;
+  
+  }
+
+  .mojFooter {
+    margin-top: 5%;
+  }
+
+ 
+ }
  
