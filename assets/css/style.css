@@ -85,8 +85,7 @@ h2 {
 }
 
 .modal-body {
-  font-size: 18px;
-  line-height: normal;
+  max-height:40%; 
 }
 
 
@@ -140,19 +139,23 @@ h2 {
 
 @media only screen and (max-width:900px) {
   body {
-    height: 80%; 
-    margin: 0; 
+    height: 100%; 
+    margin: 0;
 
     overflow: hidden
   }
 
   .main {
     padding-top: 10%;
-    height: 20px;;
+    height: 90%;
   }
 
   .profile_picture {
     width: 60%;
+  }
+
+  .modal-body {
+    overflow-y: auto;
   }
 
   h1 {
