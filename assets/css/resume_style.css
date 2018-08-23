@@ -9,7 +9,6 @@ a:link
 html, body {
     height: 100%;
     max-width: 100%;
-    overflow-x: hidden;
 
 }
 
@@ -20,7 +19,7 @@ html {
     
 }
 
-div.content {
+div.content, .home {
     font-family: "Roboto",Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: #777;
     font-size: 20px;
@@ -30,18 +29,40 @@ h1 {
     color: rgb(75, 75, 75);
   }
 
-  h4 {
-    font-size: 40px;
+h2 {
     font-weight: bold;
-    margin-top: 10px;
     color: #777;
 }
+
+h3 {
+    font-weight: bold;
+    color: #777;
+}
+
+h4 {
+    font-weight: bold;
+    color: #777;
+}
+
+h5 {
+    font-style: italic;
+    color: #777;
+}
+
+ul {
+    line-height: 24px;
+    font-weight: -100;
+}
+
+.content {
+    margin-top: 10px;
+}
+
 
 
 @media only screen and (max-width:900px) {
 
     html, body{
         width:100%;
-        overflow-x:hidden;
         }
 }
