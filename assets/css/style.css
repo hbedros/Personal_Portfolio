@@ -141,12 +141,10 @@ h2 {
   body {
     height: 100%; 
     margin: 0;
-
-    overflow: hidden
   }
 
   .main {
-    padding-top: 10%;
+    padding-top: 5%;
     padding-bottom: 30%;
     height: 90%;
   }
